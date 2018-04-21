@@ -11,11 +11,28 @@
 
 <!-- MAIN (Center website) -->
 <div class="main">
-<h2>INFOGRAFISMO@CRIATIVA</h2>
-<h1>TEMAS H</h1>
+<h3>INFOGRAFISMO@CRIATIVA</h3>
+<h1>TEMAS ESTÚDIO1 H</h1>
 <h3>made by djmp</h3>
-<hr>    
 
+    
+<script>
+function show() {
+   document.getElementById("passwordField").style.display ="block";    
+}
+</script>
+
+
+<div >
+    <button classs="btn active" onclick="show()">refresh</button>
+
+    <div id="passwordField" style="display:none" class="row"> Password: <input type="password" class="form-control" name="Threshold">
+    </div>
+</div>
+   
+
+<hr>    
+    
 <div id="myBtnContainer">
   <button class="btn active" onclick="filterSelection('all')"> Todos</button>
   <button class="btn" onclick="filterSelection('Desporto')"> Desporto</button>

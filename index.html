@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+display: <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="style_djmp.css">
@@ -17,17 +17,19 @@
 
     
 <script>
-function show() {
-   document.getElementById("passwordField").style.display ="block";    
+function myFunction() {
+    var passwordString = prompt("Please enter password:", "");
+     if (passwordString ==="pass") {
+        main();
+    } else {
+        window.alert("falhou");
+    }
 }
 </script>
-
-
+    
 <div >
-    <button classs="btn active" onclick="show()">refresh</button>
-
-    <div id="passwordField" style="display:none" class="row"> Password: <input type="password" class="form-control" name="Threshold">
-    </div>
+    <form name="myPassword" id="myPassword" method="post" action="" onsubmit="return validateForm(this);"> </form>
+    <button class="btn" onclick="myFunction()">refresh</button>
 </div>
    
 

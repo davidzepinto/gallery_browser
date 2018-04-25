@@ -29,6 +29,47 @@ function RemoveClass(element, name) {
   element.className = arr1.join(" ");
 }
 
+function htmlPopulateXML() {
+    //para efeitos de teste
+  divHtml = document.getElementById("gallery");
+    
+    
+    // Create a connection to the fill
+    if (window.XMLHttpRequest) {
+    // code for modern browsers
+    var xmlfilehttp = new XMLHttpRequest();
+ } else {
+    // code for old IE browsers
+    var xmlfilehttp = new ActiveXObject("Microsoft.XMLHTTP");
+}
+  // Define which file to open and
+  // send the request.
+    xmlfilehttp.open("GET", "/TEMAS_H/TEMAS_H.xml", false);
+    xmlfilehttp.send();
+    
+  // Place the response in an XML document.
+  var TheDocument = Connect.responseXML;
+  // Place the root node in an element.
+  var category = TheDocument.getElementsByTagName("file");
+  // Retrieve each category in turn.
+  for (var i = 0; i < category.length; i++)
+  {
+      var category = category.getAttribute("category");
+      divHtml.write('<div class="column "' + category + '></br>');      
+      var fileEach = category.getElementsByTagName("img");
+      for (var i = 0; i < fileEach.length; i++)
+      {
+          var file = fileEach.children[i];
+          // Access each of the data values.
+          var fileName = file.getElementsByTagName("img").text;
+          var filePath = file.getAttribute("path");
+          // Write the data to the page.
+          divHtml.write('<img src="' + filePath + '" style="width:100%"></br><h4>' + fineName + '</h4></br>');
+      }
+  }
+    divHtml.write('</div>')
+}
+
 
 // Add active class to the current button (highlight it)
 var btnContainer = document.getElementById("myBtnContainer");

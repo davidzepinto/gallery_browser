@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style_djmp.css">
+
+<script language="JavaScript">
+ function htmlPopulateXML(){   
+    // Create a connection to the fill
+    if (window.XMLHttpRequest) {
+    // code for modern browsers
+    var xmlfilehttp = new XMLHttpRequest();
+ } else {
+    // code for old IE browsers
+    var xmlfilehttp = new ActiveXObject("Microsoft.XMLHTTP");
+}
+  // Define which file to open and
+  // send the request.
+    xmlfilehttp.open("GET", "TEMAS_H.xml", false);
+    xmlfilehttp.send();
+    
+  // Place the response in an XML document.
+  var TheDocument = Connect.responseXML;
+  // Place the root node in an element.
+  var category = TheDocument.getElementsByTagName("file");
+  // Retrieve each category in turn.
+  for (var i = 0; i < category.length; i++)
+  {
+      var category = category.getAttribute("category");
+      document.write('<div class="column "' + category + '></br>');      
+      var fileEach = category.getElementsByTagName("img");
+      for (var i = 0; i < fileEach.length; i++)
+      {
+          var file = fileEach.children[i];
+          // Access each of the data values.
+          var fileName = file.getElementsByTagName("Name");
+          var filePath = file.getElementsByTagName("Age");
+          // Write the data to the page.
+          document.write('<img src="' + filePath + '" style="width:100%"></br><h4>' + fineName + '</h4></br>');
+      }
+  }
+    document.write('</div>')
+ }
+    
+</script>
+
+</head>
+    
+<body>
+
+<script src="mosaic.js"></script>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+<h3>infografismo@tvi.pt</h3>
+<h1>TEMAS H ESTÚDIO2</h1>
+<h3>made by djmp</h3>
+
+    
+<!--<div >
+    <form name="myPassword" id="myPassword" method="post" action="" onsubmit="return validateForm(this);"> </form>
+    <button class="btn" onclick="myFunction()">refresh</button>
+</div>-->
+   
+<button class="btn" onclick="htmlPopulateXML()">refresh</button>
+
+<hr>    
+    
+<div id="myContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Todos</button>
+  <button class="btn" onclick="filterSelection('Desporto')"> Desporto</button>
+  <button class="btn" onclick="filterSelection('Economia')"> Economia</button>
+  <button class="btn" onclick="filterSelection('Especiais')"> Educação</button>
+  <button class="btn" onclick="filterSelection('Internacional')"> Internacional</button>
+  <button class="btn" onclick="filterSelection('Internacional')"> Justiça</button>
+  <button class="btn" onclick="filterSelection('Internacional')"> Media</button>
+  <button class="btn" onclick="filterSelection('Política')"> Política</button>
+  <button class="btn" onclick="filterSelection('Saúde')"> Saúde</button>
+  <button class="btn" onclick="filterSelection('Sociedade')"> Sociedade</button>
+  <button class="btn" onclick="filterSelection('Especiais')"> Especiais</button>
+</div>
+<hr>
+    
+<!-- estrutura de grid da galeria -->
+<div id="gallery" class="row">
+
+<!--  <div class="column Desporto">
+      <img src="/mountains.jpg" style="width:100%">
+      <h4>Mountains</h4>
+  </div>-->
+<!-- fim da grid -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>

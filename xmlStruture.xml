@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEMAS_H>
   <file category="SOCIEDADE">
-    <img path="/SOCIEDADE/PREDIOS.jpg">predios</img>
-    <img path="/SOCIEDADE/PESSOAS.jpg">pessoas</img>
+    <img path="c:/TEMAS_H/SOCIEDADE/PREDIOS.jpg">predios</img>
+    <img path="c:/TEMAS_H/SOCIEDADE/PESSOAS.jpg">pessoas</img>
   </file>
  <file category="POLITICA">
-    <img path="/POLITICA/PS.jpg">PS</img>
-    <img path="/POLITICA.PSD.jpg"></img>
+    <img path="c:/TEMAS_H/POLITICA/PS.jpg">PS</img>
+    <img path="c:/TEMAS_H/POLITICA.PSD.jpg">PSD</img>
   </file>
  <file category="INTERNACIONAL">
-    <img path="/INTERNACIONAL/TRUMP.jpg">TRUMP</img>
+    <img path="c:/TEMAS_H/INTERNACIONAL/TRUMP.jpg">TRUMP</img>
   </file>
 </TEMAS_H>

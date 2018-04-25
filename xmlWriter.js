@@ -4,40 +4,45 @@ function createRoot(XML, RootName){
 
 
 function getCategorys(XML, RootName){
-    for each (var file in files){
+    var fs = require('fs');
+    var files = fs.readdirSync('./' + RootName + '/');
+    
+    for (var file in files){
         if(!file.includes(".")){ //só assume sendo pasta os ficheiros que não contêm "."
+            XML.BeginNode("file");
+            XML.Attrib("Category", file);
             
             getImagesFromCat(XML, RootName + '/' + file + '/');
+            
+            XML.EndNode();
         }
     }
 }
 
 
 function getImagesFromCat(XML, CategoryPath){
+    var fs = require('fs');
+    var images = fs.readdirSync('./' + CategoryPath);
     
-    //TODO
+    for (var image in images){
+        if(file.includes(".jpeg") || file.includes(".jpg") ){
+            XML.BeginNode("img");
+            XML.Attrib("", './' + CategoryPath + image + '/');
+            XML.WriteString(image);        
+            XML.EndNode();
+        }
+    }
 }
-
-
-function getImage(Image){
-    //TODO
-}
-
+    
 
 function createXML(RootName){
     var XML = new XMLWriter();
     createRoot(XML, RootName);
     
-    var fs = require('fs');
-    var files = fs.readdirSync('./' + RootName + '/');
+    getCategorys(XML, RootName);    
     
-    getCategorys(XML, RootName);
-    
-    //TODO
-    
-    
-    XML.endNode();
-    XML.close();
+    XML.EndNode();
+    XML.Close();
     
     //Escreve ficheiro xml
     var xmlString = XML.ToString();
@@ -45,7 +50,10 @@ function createXML(RootName){
     var xmlDoc = parser.parseFromString(xmlString, "text/xml");
 }
 
+    
 
+//=============== MAINS ===================
+    
 //main para actualizar temas individuais
 function main(RootName){
     createXML(RootName);
@@ -57,7 +65,7 @@ function main(){
     var fs = require('fs');
     var files = fs.readdirSync('.');
     
-    for each (var file in files){
+    for (var file in files){
         if(!file.includes(".")){ //só assume sendo pasta os ficheiros que não contêm "."
             main(file);
         }

@@ -1,37 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="style_djmp.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style_djmp.css">
 </head>
-    
 <body>
 
 <script src="mosaic.js"></script>
 
 <!-- MAIN (Center website) -->
 <div class="main">
-<h3>INFOGRAFISMO@CRIATIVA</h3>
-<h1>TEMAS ESTÚDIO2 H</h1>
+<h3>infografismo@tvi.pt</h3>
+<h1>TEMAS H ESTÚDIO2</h1>
 <h3>made by djmp</h3>
 
     
-<!--<script>
-function myFunction() {
-    var passwordString = prompt("Please enter password:", "");
-     if (passwordString ==="pass") {
-        main();
-    } else {
-        window.alert("falhou");
-    }
-}
-</script>-->
-    
-<div >
+<!--<div >
     <form name="myPassword" id="myPassword" method="post" action="" onsubmit="return validateForm(this);"> </form>
-    <!--<button class="btn" onclick="myFunction()">refresh</button>-->
-</div>
+    <button class="btn" onclick="myFunction()">refresh</button>
+</div>-->
    
+<button class="btn" onclick="htmlPopulateXML()">refresh</button>
 
 <hr>    
     
@@ -50,69 +39,50 @@ function myFunction() {
 </div>
 <hr>
     
-<!-- Portfolio Gallery Grid -->
+<!-- estrutura de grid da galeria -->
 <div id="gallery" class="row">
-  <div class="column Desporto">
-    <div class="content">
-      <img src="/mountains.jpg" alt="Mountains" style="width:100%">
-      <h4>Mountains</h4>
-    </div>
-  </div>
-  <div class="column Desporto">
-    <div class="content">
-    <img src="/lights.jpg" alt="Lights" style="width:100%">
-      <h4>Lights</h4>
-    </div>
-  </div>
-  <div class="column Desporto">
-    <div class="content">
-    <img src="/Desporto.jpg" alt="Desporto" style="width:100%">
-      <h4>Forest</h4>
-    </div>
-  </div>
-  
-  <div class="column Sociedade">
-    <div class="content">
-      <img src="/Sociedade1.jpg" alt="Car" style="width:100%">
-      <h4>Retro</h4>
-    </div>
-  </div>
-  <div class="column Sociedade">
-    <div class="content">
-    <img src="/Sociedade2.jpg" alt="Car" style="width:100%">
-      <h4>Fast</h4>
-    </div>
-  </div>
-  <div class="column Sociedade">
-    <div class="content">
-    <img src="/Sociedade3.jpg" alt="Car" style="width:100%">
-      <h4>Classic</h4>
-    </div>
-  </div>
 
-  <div class="column Política">
-    <div class="content">
-      <img src="/Política1.jpg" alt="Car" style="width:100%">
-      <h4>Girl</h4>
-    </div>
-  </div>
-  <div class="column Política">
-    <div class="content">
-    <img src="/Política2.jpg" alt="Car" style="width:100%">
-      <h4>Man</h4>
-    </div>
-  </div>
-  <div class="column Política">
-    <div class="content">
-    <img src="/Política3.jpg" alt="Car" style="width:100%">
-      <h4>Woman</h4>
-    </div>
-  </div>
-<!-- END GRID -->
+<!--  <div class="column Desporto">
+      <img src="/mountains.jpg" style="width:100%">
+      <h4>Mountains</h4>
+  </div>-->
+<!-- fim da grid -->
 </div>
 
 <!-- END MAIN -->
 </div>
 
+
+<script>
+
+
+  function htmlPopulateXML(){
+      var xhttp = new XMLHttpRequest();
+
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            myFunction(this);
+        }
+      };
+      xhttp.open("GET", "TEMAS_H.xml", true);
+      xhttp.send();
+  }
+
+  function myFunction(xml) {
+      var i, txt, xmlDoc; 
+      xmlDoc = xml.responseXML;
+      txt = "";
+      var x = xmlDoc.getElementsByTagName("image");
+      var nameValue = xmlDoc.getElementsByTagName("name");
+      var editorValue = xmlDoc.getElementsByTagName("editor");
+      var pathValue = xmlDoc.getElementsByTagName("path");
+      
+      for (i = 0; i < x.length; i++) { 
+        txt += "<div>" + nameValue[i].childNodes[0].nodeValue + "<br>";
+        //txt += "<img" + pathValue[i].childNodes[0].nodeValue + "><br>"
+      }
+      document.getElementById("gallery").innerHTML = txt;
+   }
+</script>
 </body>
 </html>

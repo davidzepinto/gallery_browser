@@ -1,0 +1,703 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TEMAS_H>
+  <image>
+    <name>ANDEBOL</name>
+    <editor>DESPORTO</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\DESPORTO\ANDEBOL.jpg</path>
+  </image>
+  <image>
+    <name>ANDRÉ SILVA NO AC MILAN</name>
+    <editor>DESPORTO</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\DESPORTO\ANDRÉ SILVA NO AC MILAN.jpg</path>
+  </image>
+  <image>
+    <name>ARBITROS</name>
+    <editor>DESPORTO</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\DESPORTO\ARBITROS.jpg</path>
+  </image>
+  <image>
+    <name>AUTOEUROPA</name>
+    <editor>ECONOMIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\ECONOMIA\AUTOEUROPA.jpg</path>
+  </image>
+  <image>
+    <name>BANCA</name>
+    <editor>ECONOMIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\ECONOMIA\BANCA.jpg</path>
+  </image>
+  <image>
+    <name>BANCO DE PORTUGAL</name>
+    <editor>ECONOMIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\ECONOMIA\BANCO DE PORTUGAL.jpg</path>
+  </image>
+  <image>
+    <name>BANCO ESPIRITO SANTO</name>
+    <editor>ECONOMIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\ECONOMIA\BANCO ESPIRITO SANTO.jpg</path>
+  </image>
+  <image>
+    <name>BANIF</name>
+    <editor>ECONOMIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\ECONOMIA\BANIF.jpg</path>
+  </image>
+  <image>
+    <name>BOLSA DE VALORES</name>
+    <editor>ECONOMIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\ECONOMIA\BOLSA DE VALORES.jpg</path>
+  </image>
+  <image>
+    <name>BPI</name>
+    <editor>ECONOMIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\ECONOMIA\BPI.jpg</path>
+  </image>
+  <image>
+    <name>BPN JUSTIÇA</name>
+    <editor>ECONOMIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\ECONOMIA\BPN JUSTIÇA.jpg</path>
+  </image>
+  <image>
+    <name>CAIXA GERAL DE DEPOSITOS</name>
+    <editor>ECONOMIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\ECONOMIA\CAIXA GERAL DE DEPOSITOS.jpg</path>
+  </image>
+  <image>
+    <name>CARROS</name>
+    <editor>ECONOMIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\ECONOMIA\CARROS.jpg</path>
+  </image>
+  <image>
+    <name>CENTENO FINANÇAS</name>
+    <editor>ECONOMIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\ECONOMIA\CENTENO FINANÇAS.jpg</path>
+  </image>
+  <image>
+    <name>COMBUSTIVEIS</name>
+    <editor>ECONOMIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\ECONOMIA\COMBUSTIVEIS.jpg</path>
+  </image>
+  <image>
+    <name>CONSUMIDORES</name>
+    <editor>ECONOMIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\ECONOMIA\CONSUMIDORES.jpg</path>
+  </image>
+  <image>
+    <name>DESEMPREGO</name>
+    <editor>ECONOMIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\ECONOMIA\DESEMPREGO.jpg</path>
+  </image>
+  <image>
+    <name>FINANÇAS - DINHEIRO</name>
+    <editor>ECONOMIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\ECONOMIA\FINANÇAS - DINHEIRO.jpg</path>
+  </image>
+  <image>
+    <name>FMI</name>
+    <editor>ECONOMIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\ECONOMIA\FMI.jpg</path>
+  </image>
+  <image>
+    <name>GÁS</name>
+    <editor>ECONOMIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\ECONOMIA\GÁS.jpg</path>
+  </image>
+  <image>
+    <name>IRS</name>
+    <editor>ECONOMIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\ECONOMIA\IRS.jpg</path>
+  </image>
+  <image>
+    <name>OCDE</name>
+    <editor>ECONOMIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\ECONOMIA\OCDE.jpg</path>
+  </image>
+  <image>
+    <name>PROTESTOS CGD</name>
+    <editor>ECONOMIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\ECONOMIA\PROTESTOS CGD.jpg</path>
+  </image>
+  <image>
+    <name>TAP</name>
+    <editor>ECONOMIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\ECONOMIA\TAP.jpg</path>
+  </image>
+  <image>
+    <name>ALMARAZ</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\ALMARAZ.jpg</path>
+  </image>
+  <image>
+    <name>AMI</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\AMI.jpg</path>
+  </image>
+  <image>
+    <name>AMNISTIA INTERNACIONAL</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\AMNISTIA INTERNACIONAL.jpg</path>
+  </image>
+  <image>
+    <name>ANGELA MERKEL</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\ANGELA MERKEL.jpg</path>
+  </image>
+  <image>
+    <name>ANGOLA</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\ANGOLA.jpg</path>
+  </image>
+  <image>
+    <name>ATRASOS NOS AEROPORTOS</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\ATRASOS NOS AEROPORTOS.jpg</path>
+  </image>
+  <image>
+    <name>AUSTRALIA</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\AUSTRALIA.jpg</path>
+  </image>
+  <image>
+    <name>BRASIL</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\BRASIL.jpg</path>
+  </image>
+  <image>
+    <name>BREXIT</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\BREXIT.jpg</path>
+  </image>
+  <image>
+    <name>CABO VERDE</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\CABO VERDE.jpg</path>
+  </image>
+  <image>
+    <name>CANADÁ</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\CANADÁ.jpg</path>
+  </image>
+  <image>
+    <name>CATALUNHA</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\CATALUNHA.jpg</path>
+  </image>
+  <image>
+    <name>CHE GUEVARA</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\CHE GUEVARA.jpg</path>
+  </image>
+  <image>
+    <name>CHINA</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\CHINA.jpg</path>
+  </image>
+  <image>
+    <name>CIA</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\CIA.jpg</path>
+  </image>
+  <image>
+    <name>COLOMBIA</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\COLOMBIA.jpg</path>
+  </image>
+  <image>
+    <name>CONFLITO GAZA</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\CONFLITO GAZA.jpg</path>
+  </image>
+  <image>
+    <name>COREIA</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\COREIA.jpg</path>
+  </image>
+  <image>
+    <name>CUBA</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\CUBA.jpg</path>
+  </image>
+  <image>
+    <name>DURÃO BARROSO - GOLDAM SACHS</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\DURÃO BARROSO - GOLDAM SACHS.jpg</path>
+  </image>
+  <image>
+    <name>EUA vs RUSSIA</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\EUA vs RUSSIA.jpg</path>
+  </image>
+  <image>
+    <name>EUROPEAN MEDICINES AGENCY</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\EUROPEAN MEDICINES AGENCY.jpg</path>
+  </image>
+  <image>
+    <name>ISABEL DOS SANTOS</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\ISABEL DOS SANTOS.jpg</path>
+  </image>
+  <image>
+    <name>ISRAEL VS PALESTINA</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\ISRAEL VS PALESTINA.jpg</path>
+  </image>
+  <image>
+    <name>KIM JONG UN</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\KIM JONG UN.jpg</path>
+  </image>
+  <image>
+    <name>THEMER</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\THEMER.jpg</path>
+  </image>
+  <image>
+    <name>TM EUA_COREIA</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\TM EUA_COREIA.jpg</path>
+  </image>
+  <image>
+    <name>TM EUA_RUSSIA</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\TM EUA_RUSSIA.jpg</path>
+  </image>
+  <image>
+    <name>UCRÂNIA</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\UCRÂNIA.jpg</path>
+  </image>
+  <image>
+    <name>ÁFRICA DO SUL</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\ÁFRICA DO SUL.jpg</path>
+  </image>
+  <image>
+    <name>ÁUSTRIA</name>
+    <editor>INTERNACIONAL</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\INTERNACIONAL\ÁUSTRIA.jpg</path>
+  </image>
+  <image>
+    <name>SALGADO</name>
+    <editor>JUSTIÇA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\JUSTIÇA\SALGADO.jpg</path>
+  </image>
+  <image>
+    <name>TM CRIME GNR</name>
+    <editor>JUSTIÇA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\JUSTIÇA\TM CRIME GNR.jpg</path>
+  </image>
+  <image>
+    <name>ALTICE</name>
+    <editor>MEDIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\MEDIA\ALTICE.jpg</path>
+  </image>
+  <image>
+    <name>ALTICE_MEDIA_CAPITAL</name>
+    <editor>MEDIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\MEDIA\ALTICE_MEDIA_CAPITAL.jpg</path>
+  </image>
+  <image>
+    <name>AUDIENCIAS</name>
+    <editor>MEDIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\MEDIA\AUDIENCIAS.jpg</path>
+  </image>
+  <image>
+    <name>ECO24</name>
+    <editor>MEDIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\MEDIA\ECO24.jpg</path>
+  </image>
+  <image>
+    <name>FACEBOOK</name>
+    <editor>MEDIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\MEDIA\FACEBOOK.jpg</path>
+  </image>
+  <image>
+    <name>GOOGLE</name>
+    <editor>MEDIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\MEDIA\GOOGLE.jpg</path>
+  </image>
+  <image>
+    <name>IMPRESA</name>
+    <editor>MEDIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\MEDIA\IMPRESA.jpg</path>
+  </image>
+  <image>
+    <name>INSTAGRAM</name>
+    <editor>MEDIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\MEDIA\INSTAGRAM.jpg</path>
+  </image>
+  <image>
+    <name>INTERNET</name>
+    <editor>MEDIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\MEDIA\INTERNET.jpg</path>
+  </image>
+  <image>
+    <name>MEDIA CAPITAL</name>
+    <editor>MEDIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\MEDIA\MEDIA CAPITAL.jpg</path>
+  </image>
+  <image>
+    <name>RADIO COMERCIAL</name>
+    <editor>MEDIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\MEDIA\RADIO COMERCIAL.jpg</path>
+  </image>
+  <image>
+    <name>RADIO</name>
+    <editor>MEDIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\MEDIA\RADIO.jpg</path>
+  </image>
+  <image>
+    <name>REPORTER TVI</name>
+    <editor>MEDIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\MEDIA\REPORTER TVI.jpg</path>
+  </image>
+  <image>
+    <name>RÁDIO M80</name>
+    <editor>MEDIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\MEDIA\RÁDIO M80.jpg</path>
+  </image>
+  <image>
+    <name>SONAE</name>
+    <editor>MEDIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\MEDIA\SONAE.jpg</path>
+  </image>
+  <image>
+    <name>TDT</name>
+    <editor>MEDIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\MEDIA\TDT.jpg</path>
+  </image>
+  <image>
+    <name>TELECOMUNICAÇÕES</name>
+    <editor>MEDIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\MEDIA\TELECOMUNICAÇÕES.jpg</path>
+  </image>
+  <image>
+    <name>TELEMÓVEL</name>
+    <editor>MEDIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\MEDIA\TELEMÓVEL.jpg</path>
+  </image>
+  <image>
+    <name>TONY CARRREIRA</name>
+    <editor>MEDIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\MEDIA\TONY CARRREIRA.jpg</path>
+  </image>
+  <image>
+    <name>TVI 25 ANOS</name>
+    <editor>MEDIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\MEDIA\TVI 25 ANOS.jpg</path>
+  </image>
+  <image>
+    <name>TVI INFO 25 ANOS</name>
+    <editor>MEDIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\MEDIA\TVI INFO 25 ANOS.jpg</path>
+  </image>
+  <image>
+    <name>TVI</name>
+    <editor>MEDIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\MEDIA\TVI.jpg</path>
+  </image>
+  <image>
+    <name>TWITTER</name>
+    <editor>MEDIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\MEDIA\TWITTER.jpg</path>
+  </image>
+  <image>
+    <name>YOUTUBE</name>
+    <editor>MEDIA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\MEDIA\YOUTUBE.jpg</path>
+  </image>
+  <image>
+    <name>COSTA BANDEIRA</name>
+    <editor>POLÍTICA</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\POLÍTICA\COSTA BANDEIRA.jpg</path>
+  </image>
+  <image>
+    <name>INEM</name>
+    <editor>SAÚDE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SAÚDE\INEM.jpg</path>
+  </image>
+  <image>
+    <name>TM ADSE</name>
+    <editor>SAÚDE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SAÚDE\TM ADSE.jpg</path>
+  </image>
+  <image>
+    <name>TM ALZHEIMER</name>
+    <editor>SAÚDE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SAÚDE\TM ALZHEIMER.jpg</path>
+  </image>
+  <image>
+    <name>TM CORAÇÃO</name>
+    <editor>SAÚDE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SAÚDE\TM CORAÇÃO.jpg</path>
+  </image>
+  <image>
+    <name>TM ENFERMEIROS</name>
+    <editor>SAÚDE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SAÚDE\TM ENFERMEIROS.jpg</path>
+  </image>
+  <image>
+    <name>TM FARMÁCIAS</name>
+    <editor>SAÚDE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SAÚDE\TM FARMÁCIAS.jpg</path>
+  </image>
+  <image>
+    <name>TM MEDICAMENTOS</name>
+    <editor>SAÚDE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SAÚDE\TM MEDICAMENTOS.jpg</path>
+  </image>
+  <image>
+    <name>TM SARAMPO</name>
+    <editor>SAÚDE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SAÚDE\TM SARAMPO.jpg</path>
+  </image>
+  <image>
+    <name>TM URGENCIA CORREDOR</name>
+    <editor>SAÚDE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SAÚDE\TM URGENCIA CORREDOR.jpg</path>
+  </image>
+  <image>
+    <name>TM URGENCIA HOSPITALAR</name>
+    <editor>SAÚDE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SAÚDE\TM URGENCIA HOSPITALAR.jpg</path>
+  </image>
+  <image>
+    <name>#NÃOADOTOESTESILENCIO</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\#NÃOADOTOESTESILENCIO.jpg</path>
+  </image>
+  <image>
+    <name>AEROPORTOS</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\AEROPORTOS.jpg</path>
+  </image>
+  <image>
+    <name>AGUA</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\AGUA.jpg</path>
+  </image>
+  <image>
+    <name>ALGARVE</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\ALGARVE.jpg</path>
+  </image>
+  <image>
+    <name>AÇORES</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\AÇORES.jpg</path>
+  </image>
+  <image>
+    <name>BUSCAS MAR</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\BUSCAS MAR.jpg</path>
+  </image>
+  <image>
+    <name>CARDEAL D. MANUEL CLEMENTE</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\CARDEAL D. MANUEL CLEMENTE.jpg</path>
+  </image>
+  <image>
+    <name>CASAMENTO PRINCIPE HARRY E MEGHAN</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\CASAMENTO PRINCIPE HARRY E MEGHAN.jpg</path>
+  </image>
+  <image>
+    <name>CHAMPALIMAUD</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\CHAMPALIMAUD.jpg</path>
+  </image>
+  <image>
+    <name>CINEMA</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\CINEMA.jpg</path>
+  </image>
+  <image>
+    <name>CLIMA</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\CLIMA.jpg</path>
+  </image>
+  <image>
+    <name>CP - COMBOIOS DE PORTUGAL</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\CP - COMBOIOS DE PORTUGAL.jpg</path>
+  </image>
+  <image>
+    <name>CRUZEIROS</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\CRUZEIROS.jpg</path>
+  </image>
+  <image>
+    <name>CTT</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\CTT.jpg</path>
+  </image>
+  <image>
+    <name>CULTURA</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\CULTURA.jpg</path>
+  </image>
+  <image>
+    <name>CÃES</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\CÃES.jpg</path>
+  </image>
+  <image>
+    <name>DIA DA TERRA - PLANETA TERRA</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\DIA DA TERRA - PLANETA TERRA.jpg</path>
+  </image>
+  <image>
+    <name>DIA INTERNACIONAL DA MULHER</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\DIA INTERNACIONAL DA MULHER.jpg</path>
+  </image>
+  <image>
+    <name>ELECTRICIDADE</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\ELECTRICIDADE.jpg</path>
+  </image>
+  <image>
+    <name>EPHEMERA</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\EPHEMERA.jpg</path>
+  </image>
+  <image>
+    <name>EUROMILHÕES</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\EUROMILHÕES.jpg</path>
+  </image>
+  <image>
+    <name>EXPLOSÃO</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\EXPLOSÃO.jpg</path>
+  </image>
+  <image>
+    <name>FÁTIMA</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\FÁTIMA.jpg</path>
+  </image>
+  <image>
+    <name>INCENDIO URBANO</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\INCENDIO URBANO.jpg</path>
+  </image>
+  <image>
+    <name>INFRAESTRUTURAS DE PORTUGAL</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\INFRAESTRUTURAS DE PORTUGAL.jpg</path>
+  </image>
+  <image>
+    <name>LIMPEZA MATAS</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\LIMPEZA MATAS.jpg</path>
+  </image>
+  <image>
+    <name>MINAS</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\MINAS.jpg</path>
+  </image>
+  <image>
+    <name>NAVIO ENCALHADO NO BUGIO</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\NAVIO ENCALHADO NO BUGIO.jpg</path>
+  </image>
+  <image>
+    <name>NEVE</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\NEVE.jpg</path>
+  </image>
+  <image>
+    <name>PASCOA CRUZ</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\PASCOA CRUZ.jpg</path>
+  </image>
+  <image>
+    <name>PASCOA</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\PASCOA.jpg</path>
+  </image>
+  <image>
+    <name>PESCAS</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\PESCAS.jpg</path>
+  </image>
+  <image>
+    <name>POLUIÇÃO</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\POLUIÇÃO.jpg</path>
+  </image>
+  <image>
+    <name>PONTE 25 DE ABRIL</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\PONTE 25 DE ABRIL.jpg</path>
+  </image>
+  <image>
+    <name>PONTE VASCO DA GAMA</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\PONTE VASCO DA GAMA.jpg</path>
+  </image>
+  <image>
+    <name>QUARESMA</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\QUARESMA.jpg</path>
+  </image>
+  <image>
+    <name>REFLORESTAÇÃO</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\REFLORESTAÇÃO.jpg</path>
+  </image>
+  <image>
+    <name>SECA</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\SECA.jpg</path>
+  </image>
+  <image>
+    <name>SEGREDO DOS DEUSES</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\SEGREDO DOS DEUSES.jpg</path>
+  </image>
+  <image>
+    <name>SOBREIRO ASSOBIADOR</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\SOBREIRO ASSOBIADOR.jpg</path>
+  </image>
+  <image>
+    <name>SPRINGBREAK</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\SPRINGBREAK.jpg</path>
+  </image>
+  <image>
+    <name>STEPHEN HAWKING</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\STEPHEN HAWKING.jpg</path>
+  </image>
+  <image>
+    <name>SUPERMERCADO</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\SUPERMERCADO.jpg</path>
+  </image>
+  <image>
+    <name>TEATRO</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\TEATRO.jpg</path>
+  </image>
+  <image>
+    <name>TELEMOVEIS</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\TELEMOVEIS.jpg</path>
+  </image>
+  <image>
+    <name>TEMPORAL COSTEIRO</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\TEMPORAL COSTEIRO.jpg</path>
+  </image>
+  <image>
+    <name>TORNADO</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\TORNADO.jpg</path>
+  </image>
+  <image>
+    <name>VINHO DO PORTO</name>
+    <editor>SOCIEDADE</editor>
+    <path>C:\Users\david\Documents\GitHub\gallery_browser\TEMAS_H\SOCIEDADE\VINHO DO PORTO.jpg</path>
+  </image>
+</TEMAS_H>

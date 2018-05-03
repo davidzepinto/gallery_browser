@@ -1,10 +1,10 @@
 function filterSelection(c) {
     var x, i;
   x = document.getElementsByClassName("column");
-  if (c == "all") c = "";
+  if (c == "ALL") c = "";
   for (i = 0; i < x.length; i++) {
     RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1 ) AddClass(x[i], "show");
   }
 }
 
@@ -29,50 +29,40 @@ function RemoveClass(element, name) {
   element.className = arr1.join(" ");
 }
 
-function htmlPopulateXML() {
-    //para efeitos de teste
-  divHtml = document.getElementById("gallery");
-    
-    
-    // Create a connection to the fill
-    if (window.XMLHttpRequest) {
-    // code for modern browsers
-    var xmlfilehttp = new XMLHttpRequest();
- } else {
-    // code for old IE browsers
-    var xmlfilehttp = new ActiveXObject("Microsoft.XMLHTTP");
-}
-  // Define which file to open and
-  // send the request.
-    xmlfilehttp.open("GET", "/TEMAS_H/TEMAS_H.xml", false);
-    xmlfilehttp.send();
-    
-  // Place the response in an XML document.
-  var TheDocument = Connect.responseXML;
-  // Place the root node in an element.
-  var category = TheDocument.getElementsByTagName("file");
-  // Retrieve each category in turn.
-  for (var i = 0; i < category.length; i++)
-  {
-      var category = category.getAttribute("category");
-      divHtml.write('<div class="column "' + category + '></br>');      
-      var fileEach = category.getElementsByTagName("img");
-      for (var i = 0; i < fileEach.length; i++)
-      {
-          var file = fileEach.children[i];
-          // Access each of the data values.
-          var fileName = file.getElementsByTagName("img").text;
-          var filePath = file.getAttribute("path");
-          // Write the data to the page.
-          divHtml.write('<img src="' + filePath + '" style="width:100%"></br><h4>' + fineName + '</h4></br>');
-      }
+function htmlPopulateXML(){
+      var xhttp = new XMLHttpRequest();
+
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            myFunction(this);
+        }
+      };
+      xhttp.open("GET", "TEMAS_H.xml", true);
+      xhttp.send();
   }
-    divHtml.write('</div>')
-}
+
+function myFunction(xml) {
+      var i, txt, xmlDoc; 
+      xmlDoc = xml.responseXML;
+      txt = "";
+      var x = xmlDoc.getElementsByTagName("image");
+      var nameValue = xmlDoc.getElementsByTagName("name");
+      var editorValue = xmlDoc.getElementsByTagName("editor");
+      var pathValue = xmlDoc.getElementsByTagName("path");
+      
+      for (i = 0; i < x.length; i++) { 
+        txt += "<div class='column show " + editorValue[i].innerHTML + "'>" + 
+         "<img src='"+ encodeURIComponent(pathValue[i].innerHTML) +"' style='width:100%'>" +
+            "<h4>"+nameValue[i].innerHTML + "</h4></div>";
+      }
+      document.getElementById("gallery").innerHTML = txt;
+   }
 
 
+function onload(){
+    htmlPopulateXML();
 // Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
+var btnContainer = document.getElementById("myContainer");
 var btns = btnContainer.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function(){
@@ -83,3 +73,4 @@ for (var i = 0; i < btns.length; i++) {
 }
 
 filterSelection("all")
+}

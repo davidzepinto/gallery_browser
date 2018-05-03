@@ -3,8 +3,11 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style_djmp.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    
 </head>
-<body>
+<body onload="onload()">
 
 <script src="mosaic.js"></script>
 
@@ -25,17 +28,17 @@
 <hr>    
     
 <div id="myContainer">
-  <button class="btn active" onclick="filterSelection('all')"> Todos</button>
-  <button class="btn" onclick="filterSelection('Desporto')"> Desporto</button>
-  <button class="btn" onclick="filterSelection('Economia')"> Economia</button>
-  <button class="btn" onclick="filterSelection('Especiais')"> Educação</button>
-  <button class="btn" onclick="filterSelection('Internacional')"> Internacional</button>
-  <button class="btn" onclick="filterSelection('Internacional')"> Justiça</button>
-  <button class="btn" onclick="filterSelection('Internacional')"> Media</button>
-  <button class="btn" onclick="filterSelection('Política')"> Política</button>
-  <button class="btn" onclick="filterSelection('Saúde')"> Saúde</button>
-  <button class="btn" onclick="filterSelection('Sociedade')"> Sociedade</button>
-  <button class="btn" onclick="filterSelection('Especiais')"> Especiais</button>
+  <button class="btn active" onclick="filterSelection('ALL')"> Todos</button>
+  <button class="btn" onclick="filterSelection('DESPORTO')"> Desporto</button>
+  <button class="btn" onclick="filterSelection('ECONOMIA')"> Economia</button>
+  <button class="btn" onclick="filterSelection('EDUCAÇÃO')"> Educação</button>
+  <button class="btn" onclick="filterSelection('INTERNACIONAL')"> Internacional</button>
+  <button class="btn" onclick="filterSelection('JUSTIÇA')"> Justiça</button>
+  <button class="btn" onclick="filterSelection('MEDIA')"> Media</button>
+  <button class="btn" onclick="filterSelection('POLÍTICA')"> Política</button>
+  <button class="btn" onclick="filterSelection('SAÚDE')"> Saúde</button>
+  <button class="btn" onclick="filterSelection('SOCIEDADE')"> Sociedade</button>
+  <button class="btn" onclick="filterSelection('ESPECIAIS')"> Especiais</button>
 </div>
 <hr>
     
@@ -54,33 +57,7 @@
 
 
 <script>
-  function htmlPopulateXML(){
-      var xhttp = new XMLHttpRequest();
 
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            myFunction(this);
-        }
-      };
-      xhttp.open("GET", "TEMAS_H.xml", true);
-      xhttp.send();
-  }
-
-  function myFunction(xml) {
-      var i, txt, xmlDoc; 
-      xmlDoc = xml.responseXML;
-      txt = "";
-      var x = xmlDoc.getElementsByTagName("image");
-      var nameValue = xmlDoc.getElementsByTagName("name");
-      var editorValue = xmlDoc.getElementsByTagName("editor");
-      var pathValue = xmlDoc.getElementsByTagName("path");
-      
-      for (i = 0; i < x.length; i++) { 
-        txt += "<div>" + nameValue[i].childNodes[0].nodeValue + "<br>";
-        //txt += "<img" + pathValue[i].childNodes[0].nodeValue + "><br>"
-      }
-      document.getElementById("gallery").innerHTML = txt;
-   }
 </script>
 </body>
 </html>
